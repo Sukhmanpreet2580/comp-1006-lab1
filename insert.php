@@ -1,7 +1,7 @@
 <?php
 
   // Step 1: In the string provided below, write your SQL insert statement to create a new product
-  if( isset ($_POST)&& isset($_POST['name'])){
+  if( isset ($_POST['name'])){
   $sql = "INSERT INTO products(
     name,
     price
